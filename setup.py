@@ -17,7 +17,7 @@ short_description = (
 
 setup(
     name="collective.contact_behaviors",
-    version="1.0.0a1",
+    version="1.0.0a2.dev0",
     description=short_description,
     long_description=long_description,
     long_description_content_type="text/markdown",
