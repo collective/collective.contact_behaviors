@@ -49,20 +49,20 @@ def _sync_iso_codes(domains=None):
     domains = domains if domains else ["iso_3166-1"]
     languages = _get_languages_folders()
     for domain in domains:
-        logger.info(f"Sync {domain}")
+        logger.info(f"Synchronize {domain}")
         # Sync POT
         remote_path = f"{domain}/{domain}.pot"
         content = _get_content_from_repo(remote_path)
         local_path = locale_path / f"{domain}.pot"
         local_path.write_bytes(content)
-        logger.info(f" - Syncronized {domain} POT")
+        logger.info(f" - Synchronized {domain} POT")
         for language in languages:
             code = language.name
             remote_path = f"{domain}/{code}.po"
             content = _get_content_from_repo(remote_path)
             local_path = locale_path / code / "LC_MESSAGES" / f"{domain}.po"
             local_path.write_bytes(content)
-            logger.info(f" - Syncronized {code} PO")
+            logger.info(f" - Synchronized {code} PO")
 
 
 def locale_folder_setup(domain: str):
