@@ -153,6 +153,7 @@ ignore = [
 #  """
 ##
 
+ignore-bad-ideas = ["*.mo"]
 
 ##
 # Add extra configuration options in .meta.toml:

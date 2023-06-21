@@ -7,4 +7,5 @@ include Makefile
 include *.yaml
 include *.md
 include *.txt
+include *.mo
 global-exclude *.pyc
