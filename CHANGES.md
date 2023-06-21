@@ -8,4 +8,4 @@
 -->
 
 <!-- towncrier release notes start -->
-## 1.0.0 (unreleased)
+## 1.0.0a1 (2023-06-21)
