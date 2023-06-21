@@ -26,3 +26,5 @@ parts/
 pip-selfcheck.json
 report.html
 var/
+constraints-mxdev.txt
+requirements-mxdev.txt
