@@ -55,6 +55,7 @@ setup(
     extras_require={
         "test": [
             "zest.releaser[recommended]",
+            "zestreleaser.towncrier",
             "plone.app.testing",
             "plone.restapi[test]",
             "pytest",
