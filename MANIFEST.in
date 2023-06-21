@@ -4,6 +4,8 @@ graft tests
 include .coveragerc
 include .editorconfig
 include Makefile
+include *.yaml
 include *.md
 include *.txt
 global-exclude *.pyc
+exclude news/*
