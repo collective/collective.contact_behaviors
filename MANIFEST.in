@@ -8,4 +8,3 @@ include *.yaml
 include *.md
 include *.txt
 global-exclude *.pyc
-exclude news/*

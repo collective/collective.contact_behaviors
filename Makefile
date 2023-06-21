@@ -101,7 +101,7 @@ format: bin/tox ## Format the codebase according to our standards
 	bin/tox -e format
 
 .PHONY: lint
-lint: ## check code style
+lint: bin/tox ## check code style
 	bin/tox -e lint
 
 # i18n

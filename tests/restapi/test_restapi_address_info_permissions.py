@@ -1,6 +1,4 @@
-
 class TestAddressViewPermissions:
-
     endpoint: str = "/content-1"
 
     def test_manager_can_view(self, manager_request):
