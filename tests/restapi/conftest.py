@@ -25,11 +25,11 @@ def app(functional):
 @pytest.fixture()
 def portal(functional, contents_payload):
     portal = functional["portal"]
+    # Create Content
     with api.env.adopt_user(SITE_OWNER_NAME):
-        # Create Content
         content = _create_content(portal, contents_payload[0])
+    # Publish Content
     with api.env.adopt_user(SITE_OWNER_NAME):
-        # Publish Content
         _publish_content(content)
 
     transaction.commit()
