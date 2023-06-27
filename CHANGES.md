@@ -9,6 +9,14 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0a3 (2023-06-27)
+
+
+### New features:
+
+- Allow other packages to set default values for address fields [@ericof] #2
+
+
 ## 1.0.0a2 (2023-06-21)
 
 
