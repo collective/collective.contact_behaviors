@@ -18,7 +18,7 @@ class TestVocabAvailableCountries:
         assert "batching" in data
         assert data["items_total"] == 249
         assert data["items"][0]["title"] == "Afghanistan"
-        assert data["items"][0]["token"] == "AF"
+        assert data["items"][0]["token"] == "AF"  # noQA: S105
 
     def test_anonymous_can_view(self, anon_request):
         response = anon_request.get(self.endpoint)
@@ -28,7 +28,7 @@ class TestVocabAvailableCountries:
         assert "batching" in data
         assert data["items_total"] == 249
         assert data["items"][0]["title"] == "Afghanistan"
-        assert data["items"][0]["token"] == "AF"
+        assert data["items"][0]["token"] == "AF"  # noQA: S105
 
     @pytest.mark.parametrize(
         "language_code,idx,expected_title,expected_token",
@@ -71,7 +71,7 @@ class TestVocabCountries:
         assert "batching" not in data
         assert data["items_total"] == 1
         assert data["items"][0]["title"] == "Germany"
-        assert data["items"][0]["token"] == "DE"
+        assert data["items"][0]["token"] == "DE"  # noQA: S105
 
     def test_anonymous_can_view(self, anon_request):
         response = anon_request.get(self.endpoint)
@@ -81,7 +81,7 @@ class TestVocabCountries:
         assert "batching" not in data
         assert data["items_total"] == 1
         assert data["items"][0]["title"] == "Germany"
-        assert data["items"][0]["token"] == "DE"
+        assert data["items"][0]["token"] == "DE"  # noQA: S105
 
     @pytest.mark.parametrize(
         "language_code,idx,expected_title,expected_token",
