@@ -1,3 +1,10 @@
+## 1.0.0b3 (2025-09-08)
+
+
+### Internal:
+
+- Use native namespace. @ericof 
+
 ## 1.0.0b2 (2025-09-08)
 
 
