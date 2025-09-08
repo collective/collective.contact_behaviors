@@ -13,7 +13,7 @@
 
 [![PyPI - Plone Versions](https://img.shields.io/pypi/frameworkversions/plone/collective.contact_behaviors)](https://pypi.org/project/collective.contact_behaviors/)
 
-[![CI](https://github.com/collective/collective.contact_behaviors/actions/workflows/ci.yml/badge.svg)](https://github.com/collective/collective.contact_behaviors/actions/workflows/ci.yml)
+[![CI](https://github.com/collective/collective.contact_behaviors/actions/workflows/main.yml/badge.svg)](https://github.com/collective/collective.contact_behaviors/actions/workflows/main.yml)
 ![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000)
 
 [![GitHub contributors](https://img.shields.io/github/contributors/collective/collective.contact_behaviors)](https://github.com/collective/collective.contact_behaviors)
