@@ -86,7 +86,7 @@ msgstr ""
 #. Default: "Internationalized phone number with country code and area code"
 #: collective/contact_behaviors/behaviors/contact_info.py:36
 msgid "description_contact_phone"
-msgstr ""
+msgstr "Internationale Telefonnummer mit Ländercode (z.B. +49 für Deutschland)"
 
 #. Default: "Filter by Country."
 #: collective/contact_behaviors/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
@@ -128,7 +128,7 @@ msgstr ""
 msgid "label_address_state"
 msgstr ""
 
-#. Default: "Email"
+#. Default: "E-mail"
 #: collective/contact_behaviors/behaviors/contact_info.py:27
 msgid "label_contact_email"
 msgstr ""
@@ -136,12 +136,12 @@ msgstr ""
 #. Default: "Contact Information"
 #: collective/contact_behaviors/behaviors/contact_info.py:18
 msgid "label_contact_info"
-msgstr ""
+msgstr "Kontaktinformationen"
 
 #. Default: "Phone Number"
 #: collective/contact_behaviors/behaviors/contact_info.py:35
 msgid "label_contact_phone"
-msgstr ""
+msgstr "Telefonnummer"
 
 #. Default: "Website"
 #: collective/contact_behaviors/behaviors/contact_info.py:31
