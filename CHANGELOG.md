@@ -1,3 +1,10 @@
+## 1.0.0b4 (2025-09-11)
+
+
+### Bug fixes:
+
+- Move phone before email in IContactInfo behavior, and add missing German translations. @davisagli [#6](https://github.com/collective/collective.contact_behaviors/issues/6)
+
 ## 1.0.0b3 (2025-09-08)
 
 
