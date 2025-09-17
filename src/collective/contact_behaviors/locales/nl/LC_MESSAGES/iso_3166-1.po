@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166-1\n"
-"POT-Creation-Date: 2025-09-17 11:42+0000\n"
+"POT-Creation-Date: 2025-09-17 14:31+0000\n"
 "PO-Revision-Date: 2023-03-18 21:41+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/iso-codes/iso-3166-1/nl/>\n"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-09-17 11:42+0000\n"
+"POT-Creation-Date: 2025-09-17 14:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,9 +159,9 @@ msgstr "País"
 #. Default: "Fax"
 #: collective/contact_behaviors/behaviors/contact_info.py:59
 msgid "label_fax"
-msgstr ""
+msgstr "Fax"
 
 #. Default: "Phone"
 #: collective/contact_behaviors/behaviors/contact_info.py:54
 msgid "label_office_phone"
-msgstr ""
+msgstr "Telefone escritório"

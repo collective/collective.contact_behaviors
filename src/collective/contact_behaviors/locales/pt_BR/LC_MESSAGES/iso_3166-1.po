@@ -16,7 +16,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166-1\n"
-"POT-Creation-Date: 2025-09-17 11:42+0000\n"
+"POT-Creation-Date: 2025-09-17 14:31+0000\n"
 "PO-Revision-Date: 2022-12-08 15:47+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/iso-codes/iso-3166-1/pt_BR/>\n"

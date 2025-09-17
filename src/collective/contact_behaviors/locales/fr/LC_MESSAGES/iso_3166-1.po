@@ -16,7 +16,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166-1\n"
-"POT-Creation-Date: 2025-09-17 11:42+0000\n"
+"POT-Creation-Date: 2025-09-17 14:31+0000\n"
 "PO-Revision-Date: 2021-09-04 09:34+0000\n"
 "Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/iso-codes/iso-3166-1/fr/>\n"
