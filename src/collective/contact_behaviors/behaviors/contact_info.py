@@ -16,18 +16,28 @@ class IContactInfo(model.Schema):
     directives.fieldset(
         "contact_info",
         label=_("label_contact_info", default="Contact Information"),
-        fields=("contact_phone", "contact_email", "contact_website"),
+        fields=(
+            "office_phone",
+            "contact_phone",
+            "fax",
+            "contact_email",
+            "contact_website",
+        ),
     )
 
     read_permission(
-        contact_phone=PERMISSION, contact_email=PERMISSION, contact_website=PERMISSION
+        office_phone=PERMISSION,
+        contact_phone=PERMISSION,
+        fax=PERMISSION,
+        contact_email=PERMISSION,
+        contact_website=PERMISSION,
     )
 
     contact_phone = schema.TextLine(
-        title=_("label_contact_phone", default="Phone Number"),
+        title=_("label_contact_phone", default="Mobile"),
         description=_(
             "description_contact_phone",
-            default=("Internationalized phone number with country code and area code"),
+            default=("Internationalized mobile number with country code and area code"),
         ),
         required=False,
     )
@@ -38,4 +48,14 @@ class IContactInfo(model.Schema):
 
     contact_website = schema.URI(
         title=_("label_contact_website", default="Website"), required=False
+    )
+
+    office_phone = schema.TextLine(
+        title=_("label_office_phone", default="Phone"),
+        required=False,
+    )
+
+    fax = schema.TextLine(
+        title=_("label_fax", default="Fax"),
+        required=False,
     )
