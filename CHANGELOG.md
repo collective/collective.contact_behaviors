@@ -1,3 +1,11 @@
+## 1.0.0b5 (2025-09-17)
+
+
+### New features:
+
+- Update Brazilian Portuguese translations. @ericof [#9](https://github.com/collective/collective.contact_behaviors/issues/9)
+- Add Telefon and Fax fields in contact_info behaviors. @iFlameing 
+
 ## 1.0.0b4 (2025-09-11)
 
 
