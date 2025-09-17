@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-21 17:26+0000\n"
+"POT-Creation-Date: 2025-09-17 11:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,32 +59,33 @@ msgid "Used in automated tests, provides a new content type"
 msgstr "Utilizado para testes automatizados, provê um novo tipo de conteúdo"
 
 #. Default: "Example: Room 2"
-#: collective/contact_behaviors/behaviors/address_info.py:44
+#: collective/contact_behaviors/behaviors/address_info.py:59
 msgid "description_address_2"
 msgstr "Examplo: Sala 2"
 
 #. Default: "Example: Brasília"
-#: collective/contact_behaviors/behaviors/address_info.py:50
+#: collective/contact_behaviors/behaviors/address_info.py:65
 msgid "description_address_city"
 msgstr "Exemplo: Brasília"
 
 #. Default: "Please select a country"
-#: collective/contact_behaviors/behaviors/address_info.py:68
+#: collective/contact_behaviors/behaviors/address_info.py:84
 msgid "description_address_country"
 msgstr "Por favor, selecione o país"
 
 #. Default: "70123"
-#: collective/contact_behaviors/behaviors/address_info.py:62
+#: collective/contact_behaviors/behaviors/address_info.py:78
 msgid "description_address_postal_code"
 msgstr "Exemplo: 70123"
 
 #. Default: "DF"
-#: collective/contact_behaviors/behaviors/address_info.py:56
+#: collective/contact_behaviors/behaviors/address_info.py:71
 msgid "description_address_state"
 msgstr "Exemplo: DF"
 
-#. Default: "Internationalized phone number with country code and area code"
-#: collective/contact_behaviors/behaviors/contact_info.py:36
+#. Default: "Internationalized mobile number with country code and area code"
+#: collective/contact_behaviors/behaviors/contact_info.py:38
+#, fuzzy
 msgid "description_contact_phone"
 msgstr "Número de telefone com código de país e código de área"
 
@@ -94,42 +95,43 @@ msgid "description_qs_country"
 msgstr "Filtrar por país"
 
 #. Default: "Address"
-#: collective/contact_behaviors/behaviors/address_info.py:39
+#: collective/contact_behaviors/behaviors/address_info.py:54
 msgid "label_address"
 msgstr "Endereço"
 
 #. Default: "Additional Info"
-#: collective/contact_behaviors/behaviors/address_info.py:43
+#: collective/contact_behaviors/behaviors/address_info.py:58
 msgid "label_address_2"
 msgstr "Complemento"
 
 #. Default: "City"
-#: collective/contact_behaviors/behaviors/address_info.py:49
+#: collective/contact_behaviors/behaviors/address_info.py:64
 msgid "label_address_city"
 msgstr "Cidade"
 
 #. Default: "Country"
-#: collective/contact_behaviors/behaviors/address_info.py:67
+#: collective/contact_behaviors/behaviors/address_info.py:83
 msgid "label_address_country"
 msgstr "País"
 
 #. Default: "Address Information"
-#: collective/contact_behaviors/behaviors/address_info.py:18
+#: collective/contact_behaviors/behaviors/address_info.py:33
 msgid "label_address_info"
 msgstr "Endereço"
 
 #. Default: "Postal Code"
-#: collective/contact_behaviors/behaviors/address_info.py:61
+#: collective/contact_behaviors/behaviors/address_info.py:77
 msgid "label_address_postal_code"
 msgstr "CEP"
 
 #. Default: "State / Province"
-#: collective/contact_behaviors/behaviors/address_info.py:55
+#: collective/contact_behaviors/behaviors/address_info.py:70
 msgid "label_address_state"
 msgstr "Estado"
 
-#. Default: "Email"
-#: collective/contact_behaviors/behaviors/contact_info.py:27
+#. Default: "E-mail"
+#: collective/contact_behaviors/behaviors/contact_info.py:46
+#, fuzzy
 msgid "label_contact_email"
 msgstr "E-mail"
 
@@ -138,13 +140,14 @@ msgstr "E-mail"
 msgid "label_contact_info"
 msgstr "Informações de contato"
 
-#. Default: "Phone Number"
-#: collective/contact_behaviors/behaviors/contact_info.py:35
+#. Default: "Mobile"
+#: collective/contact_behaviors/behaviors/contact_info.py:37
+#, fuzzy
 msgid "label_contact_phone"
 msgstr "Telefone"
 
 #. Default: "Website"
-#: collective/contact_behaviors/behaviors/contact_info.py:31
+#: collective/contact_behaviors/behaviors/contact_info.py:50
 msgid "label_contact_website"
 msgstr "Site"
 
@@ -152,3 +155,13 @@ msgstr "Site"
 #: collective/contact_behaviors/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
 msgid "label_country"
 msgstr "País"
+
+#. Default: "Fax"
+#: collective/contact_behaviors/behaviors/contact_info.py:59
+msgid "label_fax"
+msgstr ""
+
+#. Default: "Phone"
+#: collective/contact_behaviors/behaviors/contact_info.py:54
+msgid "label_office_phone"
+msgstr ""

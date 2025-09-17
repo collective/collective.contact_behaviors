@@ -1,0 +1,1 @@
+Add Telefon and Fax fields in contact_info behaviors. @iFlameing
