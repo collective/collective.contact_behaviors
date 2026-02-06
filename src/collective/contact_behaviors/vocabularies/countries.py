@@ -31,6 +31,8 @@ def countries_vocabulary(context):
     ct = api.portal.get_tool("portal_catalog")
     for alpha_2 in ct.uniqueValuesFor("country"):
         country = pycountry.countries.get(alpha_2=alpha_2)
+        if country is None:
+            continue
         code = country.alpha_2
         title = _(country.name)
         terms.append(SimpleTerm(code, code, title))
