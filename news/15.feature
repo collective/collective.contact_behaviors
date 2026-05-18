@@ -1,0 +1,1 @@
+Added support for Python 3.14: added `"3.14"` to the CI test matrix (paired with Plone 6.2; older Plone releases don't yet support 3.14) and the `Programming Language :: Python :: 3.14` classifier. @ericof
