@@ -1,0 +1,1 @@
+Disabled fail-fast in the GitHub Actions test matrix so a single cell failure no longer cancels the other Python/Plone combinations. @ericof
