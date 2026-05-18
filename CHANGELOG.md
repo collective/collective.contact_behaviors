@@ -9,6 +9,29 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0b6 (2026-05-18)
+
+
+### New features:
+
+- Added support for Plone 6.2: introduced the `6.2-latest` cell in the CI test matrix and the `Framework :: Plone :: 6.2` trove classifier. @ericof [#14](https://github.com/collective/collective.contact_behaviors/issues/14)
+- Added support for Python 3.14: added `"3.14"` to the CI test matrix (paired with Plone 6.2; older Plone releases don't yet support 3.14) and the `Programming Language :: Python :: 3.14` classifier. @ericof [#15](https://github.com/collective/collective.contact_behaviors/issues/15)
+
+
+### Bug fixes:
+
+- Avoid error in countries vocabulary if there is unexpected country data in the catalog. @davisagli [#10](https://github.com/collective/collective.contact_behaviors/issues/10)
+
+
+### Internal:
+
+- Disabled fail-fast in the GitHub Actions test matrix so a single cell failure no longer cancels the other Python/Plone combinations. @ericof [#12](https://github.com/collective/collective.contact_behaviors/issues/12)
+- Bumped `pytest-plone` to `>=1.0.0a3` and adopted the new built-in fixtures: dropped the local `uninstalled`, `request_factory`, `manager_request`, and `anon_request` overrides, keeping a thin `functional_portal` override only to seed and publish the content the REST API tests need. @ericof [#16](https://github.com/collective/collective.contact_behaviors/issues/16)
+- Consolidated the historical `CHANGES.md` entries into `CHANGELOG.md` and removed the now-redundant `CHANGES.md`. @ericof [#17](https://github.com/collective/collective.contact_behaviors/issues/17)
+- Bumped `actions/checkout` to v6 and `dorny/paths-filter` to v4.0.1 in the CI workflows. @ericof 
+- Bumped default Plone version used in CI to 6.1.4. @ericof 
+- Bumped local default Plone version to 6.1.4 (matching CI) and made the `uv venv` step idempotent, pinning Python 3.12 outside CI. @ericof 
+
 ## 1.0.0b5 (2025-09-17)
 
 
