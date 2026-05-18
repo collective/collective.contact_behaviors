@@ -45,7 +45,7 @@ test = [
     "plone.restapi[test]",
     "zest.releaser[recommended]",
     "pytest-cov",
-    "pytest-plone>=1.0.0a1",
+    "pytest-plone>=1.0.0a3",
     "zest-releaser[recommended]>=9.5.0",
     "zestreleaser-towncrier>=1.3.0",
 ]

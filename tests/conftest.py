@@ -1,3 +1,4 @@
+from collective.contact_behaviors import PACKAGE_NAME
 from collective.contact_behaviors.testing import FUNCTIONAL_TESTING
 from collective.contact_behaviors.testing import INTEGRATION_TESTING
 from plone import api
@@ -15,6 +16,11 @@ globals().update(
         (INTEGRATION_TESTING, "integration"),
     ))
 )
+
+
+@pytest.fixture(scope="session")
+def package_name() -> str:
+    return PACKAGE_NAME
 
 
 @pytest.fixture
