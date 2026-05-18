@@ -10,7 +10,7 @@ on:
       plone-version:
         required: false
         type: string
-        default: "6.1.2"
+        default: "6.1.4"
     outputs:
       backend:
         description: "Flag reporting if we should run the backend jobs"
