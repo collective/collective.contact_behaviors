@@ -1,0 +1,1 @@
+Bumped `pytest-plone` to `>=1.0.0a3` and adopted the new built-in fixtures: dropped the local `uninstalled`, `request_factory`, `manager_request`, and `anon_request` overrides, keeping a thin `functional_portal` override only to seed and publish the content the REST API tests need. @ericof
