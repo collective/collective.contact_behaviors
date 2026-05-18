@@ -1,0 +1,1 @@
+Bumped `actions/checkout` to v6 and `dorny/paths-filter` to v4.0.1 in the CI workflows. @ericof
