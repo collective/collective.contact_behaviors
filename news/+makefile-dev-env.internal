@@ -1,0 +1,1 @@
+Bumped local default Plone version to 6.1.4 (matching CI) and made the `uv venv` step idempotent, pinning Python 3.12 outside CI. @ericof
